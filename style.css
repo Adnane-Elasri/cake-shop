@@ -164,3 +164,150 @@ nav {
     height: 750px;
     cursor: pointer;
 }
+
+.container-blog{
+    background-color: #0A0B0B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65em;
+}
+
+.blog-title {
+    color: #fff;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.9em;
+}
+
+.two-pics {
+    background-color: #0A0B0B;
+    display: flex;
+    padding-top: 7em;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-pic {
+    display: flex;
+}
+
+.border1{
+    padding: 3em;
+    width: 25em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(62, 62, 62);
+}
+
+.sec-pic { 
+    display: flex;
+}
+
+.b-h1{
+    color: #E4BE4A;
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.9em;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+.b-p {
+    color: white;
+    position: relative;
+    top: 30px;
+}
+
+.border2{
+    padding: 3em;
+    width: 25em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(62, 62, 62);
+}
+
+.btn-b {
+    border: none; 
+    border-bottom: 2px solid #E4BE4A;
+    background-color: transparent;
+    color: #E4BE4A;
+    position: relative;
+    top: 30px;
+}
+
+.follow {
+    background-color:#0A0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 9em;
+}
+
+.follow-h1 {
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 3em;
+}
+.follow-btn {
+    background-color: #0A0B0B;
+    color: #E4BE4A;
+    border-color: #E4BE4A;
+    padding: 1em;
+    border-width: 1px;
+    font-size: 1.1em;
+    width: 9.5em;
+    position: relative;
+    top: 30px;
+}
+
+.before-footer {
+    background-color: #0A0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+
+
+.footer {
+    background-color: #0A0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48em ;
+    padding: 4em;
+}
+#link-f{
+    
+    color: #fff;
+    text-decoration: none;
+    gap: 0em !important;
+}
+
+.linkss{
+    display: flex;
+    gap: 2.4em;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.white-line {
+    width: 5000px;   
+    height: 2px;           
+    background: #393939;  
+    border-radius: 2px;  
+    justify-content: center;
+    display: flex; 
+  }
+
+
+.footer-2{
+    background-color: #0A0B0B;
+}
+.btns{
+    background-color: #0A0B0B;
+    color: #fff ;
+}
+
