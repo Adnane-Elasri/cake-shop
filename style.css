@@ -1,0 +1,166 @@
+body {
+    background-color: #0A0B0B;
+}
+
+nav {
+    background-color: #0A0B0B;
+    padding: 6rem !important;
+}
+  
+.btn-outline-warning {
+    border-color: gold;
+    color: gold;
+    font-size: 1.1em !important;
+    border-radius: 0px !important;
+    padding: 12px !important;
+    margin-bottom: 5em !important;
+    width: 14.5em;
+}
+  
+  .btn-outline-warning:hover {
+    background-color: #E4BE4A !important;
+    color: white !important;
+    transition: 0.5s;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    font-size: 1.1em !important;
+    padding: 0 1.2rem !important;
+    margin-top: 1em !important;
+    font-weight: 500 !important;
+    padding-bottom: 1em !important;
+  }
+  .logos {
+    padding-bottom: 5em !important;
+  }
+  
+.img-title {
+    background-image: url(/imgs/cupcakesssss.jpeg);
+    background-position: center center;
+    background-size: 100%;
+    padding: 15em;
+}
+.cupcake-h1 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 5em;
+    width: 10em;
+}
+
+.btn-title {
+    background-color: #E4BE4A;
+    border-color: transparent;
+    color: #0A0B0B;
+    padding: 1.3em;
+    width: 12em;
+    margin-top: 1.8em;
+}
+.btn-title:hover {
+    background-color: #0A0B0B !important;
+    color: #E4BE4A !important;
+    border-color: #E4BE4A;
+    border-width: 1px;
+    transition: 0.5s;
+}
+
+.links-pad {
+    padding-left: 10em !important;
+}
+.navbar-brand {
+    padding-left: 7em !important;
+}
+
+.food {
+    background-color: #0A0B0B;
+    padding: 7em;
+}
+.food-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poiret One", sans-serif;
+    color: white;
+    text-align: center;
+    width: 18em;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-size: 2.9em;
+}
+
+.firstpart-h1{
+    color: #E4BE4A;
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.7em;
+    width: 17em;
+}
+.firstpart-para{
+    color: white;
+    width: 35em;
+    font-weight: 100;
+    font-size: 17px;
+}
+.gold-line-container{
+    padding: 2em;
+}
+.gold-line {
+    width: 100px;   
+    height: 2px;           
+    background: #E4BE4A;  
+    border-radius: 2px;  
+    justify-content: center;
+    display: flex; 
+  }
+
+.container-food{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+}
+  
+.div-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-loop {
+    display: flex;
+    background-color: #0A0B0B;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.p-pan, .p-hand, .p-brown {
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.7em;
+    padding-top: 0.5em;
+}
+.price {
+    color: #E4BE4A;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+.arrow-left {
+    cursor: pointer;
+}
+.arrow-right {
+    cursor: pointer;
+}
+
+.container-hand {
+    background-color: #0A0B0B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7em;
+}
+
+.img-hand {
+    width: 1360px;
+    height: 750px;
+    cursor: pointer;
+}
