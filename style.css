@@ -1,5 +1,5 @@
 body {
-    background-color: #0A0B0B;
+    background-color: #0A0B0B !important;
 }
 
 nav {
@@ -276,8 +276,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 48em ;
-    padding: 4em;
+    gap: 52em ;
+    padding: 6em;
+    padding-right: 10em;
 }
 #link-f{
     
@@ -288,19 +289,30 @@ nav {
 
 .linkss{
     display: flex;
-    gap: 2.4em;
-    font-size: 1.1em;
+    gap: 2.1em;
+    font-size: 1.05em;
     font-weight: 400;
 }
 
 .white-line {
-    width: 5000px;   
-    height: 2px;           
-    background: #393939;  
-    border-radius: 2px;  
+    display: flex;
+    width: 1890px;
+    height: 8px; 
+    background-color: #0A0B0B;
+    border-radius: 2px;
     justify-content: center;
-    display: flex; 
+    align-items: center;
+    position: relative;
+    bottom: 50px;
   }
+  
+  .inner-line {
+    width: 80%;   
+    height: 2px;
+    background: #454545;
+    border-radius: 2px;
+  }
+  
 
 
 .footer-2{
@@ -311,3 +323,68 @@ nav {
     color: #fff ;
 }
 
+.p-btns {
+    width: 35em;
+    color: white;
+    line-height: 2em;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17em;
+    padding: 2em;
+}
+
+#c-loc  {
+    color: #E4BE4A;
+    font-family: "Poiret One", sans-serif;
+}
+#p-loc{
+    color: white;
+    width: 13em;
+    font-size: 1em;
+    font-weight: 500;
+}
+.location {
+}
+
+#img-logos{
+    padding-bottom: 1em;
+}
+
+.btns{
+    padding-top: 2em;
+}
+
+#btn-1 {
+    padding: 0.7em;
+    width: 10em;
+    background-color: #0A0B0B;
+    border-color: #454545;
+    border-width: 1px;
+    color: white;
+    border-style: solid;
+}
+
+.white-line2 {
+    display: flex;
+    width: 2050px;
+    height: 8px; 
+    background-color: #0A0B0B;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    padding: 5em;
+    right: 85px;
+  }
+  
+  .inner-line2 {
+    width: 80%;  
+    height: 2px;
+    background: #454545;
+    border-radius: 2px;
+  }
